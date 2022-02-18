@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 29, 2020 at 06:46 AM
--- Server version: 10.4.11-MariaDB
--- PHP Version: 7.4.1
+-- Generation Time: Feb 18, 2022 at 07:14 PM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 8.0.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -91,7 +90,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`id`, `websitename`, `logo`, `footerdesc`) VALUES
-(1, 'Yahoo Baba News', 'news.jpg', '© Copyright 2020 News | Powered by <a href=\"https://www.yahoobaba.net\">Yahoo Baba News</a>');
+(1, 'Darshan\'s News', 'logo2.png', '© Copyright 2022 News');
 
 -- --------------------------------------------------------
 
